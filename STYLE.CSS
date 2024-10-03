@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+ol[type="I"] {
+    list-style-type: upper-roman;
+}
+
+ol[type="a"] {
+    list-style-type: lower-alpha;
+}
+
+li {
+    margin-bottom: 10px;
+}
